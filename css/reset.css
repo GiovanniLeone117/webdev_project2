@@ -1,0 +1,54 @@
+/* Resetting default margins and padding */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove default styles for list items */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove default styling on links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Make images responsive by default */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Reset font size and family for all elements */
+body {
+  font-size: 100%;
+  font-family: sans-serif; /* Or you can specify another font */
+  line-height: 1.4;
+  background-color: #fff;
+}
+
+/* Ensure tables are styled consistently */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Remove form input styling */
+input,
+button,
+textarea,
+select {
+  border: none;
+  outline: none;
+  font: inherit;
+}
+
+/* Ensure that paragraphs don't have extra spacing */
+p {
+  margin-bottom: 0em;
+}

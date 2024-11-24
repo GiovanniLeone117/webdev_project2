@@ -25,3 +25,67 @@
 #on-page {
   background-color: black;
 }
+
+/*Main content*/
+
+#content-wrapper {
+
+}
+#profile-wrapper {
+  color: white;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(58,78,139,1) 44%, rgba(46,87,98,1) 68%, rgba(52,104,112,1) 81%, rgba(23,107,124,1) 100%);
+  padding: 2em;
+}
+#profile {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Align the content to the left */
+}
+#profile-img {
+  float: left;
+  margin-right: 2em;
+}
+#personal-info h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+#info-header {
+  text-decoration: underline;
+  margin-bottom: 1em;
+}
+
+#main-content {
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+}
+#main-content-header {
+  text-align: center;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+#columns {
+  display: flex;
+  justify-content: center;
+}
+#skills {
+  float: left;
+  width: 40%;
+}
+#skills ul {
+  list-style-type: none;
+}
+
+#professional-experience {
+  float: left;
+  width: 48%;
+  padding-left: 1em;
+}
+#education {
+  width: 50%;
+  text-align: center;
+}
