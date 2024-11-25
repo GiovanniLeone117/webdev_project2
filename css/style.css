@@ -3,6 +3,8 @@
   text-align: center;
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(58,78,139,1) 44%, rgba(46,87,98,1) 68%, rgba(52,104,112,1) 81%, rgba(23,107,124,1) 100%);
+  padding-bottom: .5em;
+  padding-top: .5em;
 }
 #main-nav ul {
   list-style-type: none;
@@ -21,16 +23,11 @@
 #main-nav ul li a:hover {
   background-color: black;
 }
-
 #on-page {
   background-color: black;
 }
 
-/*Main content*/
-
-#content-wrapper {
-
-}
+/*index.html*/
 #profile-wrapper {
   color: white;
   background: rgb(2,0,36);
@@ -42,7 +39,7 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: center; /* Align the content to the left */
+  justify-content: center;
 }
 #profile-img {
   float: left;
@@ -52,12 +49,10 @@
   font-size: 3em;
   font-weight: bold;
 }
-
 #info-header {
   text-decoration: underline;
   margin-bottom: 1em;
 }
-
 #main-content {
   background-color: white;
   width: 80%;
@@ -79,7 +74,6 @@
 #skills ul {
   list-style-type: none;
 }
-
 #professional-experience {
   float: left;
   width: 48%;
@@ -87,5 +81,83 @@
 }
 #education {
   width: 50%;
+  margin: 0 auto;
   text-align: center;
+  margin-top: 2.5em;
+  margin-bottom: 4em;
+}
+.resume-section-header {
+  color: blue;
+  margin-bottom: 1em;
+}
+.prof-experience-content {
+  margin-bottom: 1.5em;
+}
+.prof-experience-content h3 {
+  margin-bottom: 1em;
+  text-decoration: underline;
+}
+
+/*about_me.html*/
+#about-me-wrapper {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(58,78,139,1) 44%, rgba(46,87,98,1) 68%, rgba(52,104,112,1) 81%, rgba(23,107,124,1) 100%);
+  color: white;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 5em;
+  padding: 1em;
+}
+#about-me-wrapper img {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#about-me-wrapper h3 {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+/*contact.html*/
+.form-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;  
+}
+#form-wrapper {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 5em;
+}
+#form-wrapper h1 {
+  text-align: center;
+  margin-bottom: 2em;
+}
+#form-wrapper textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#submit {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(58,78,139,1) 44%, rgba(46,87,98,1) 68%, rgba(52,104,112,1) 81%, rgba(23,107,124,1) 100%);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.text {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #333;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
